@@ -1,0 +1,72 @@
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+$navbar-default-border: none;
+$navbar-inverse-bg: #92cddc;
+$navbar-inverse-border: none;
+$navbar-inverse-link-color: #fff;
+$navbar-inverse-link-active-color: #ffedbb;
+
+$btn-default-color: #777;
+$btn-primary-bg: #92cddc;
+$btn-success-bg: #99cd8c;
+$btn-info-bg: #efd794;
+$btn-warning-bg: #eca2c2;
+$btn-danger-bg: #e67272;
+
+$label-default-bg: #999;
+$label-primary-bg: #92cddc;
+$label-success-bg: #99cd8c;
+$label-info-bg: #efd794;
+$label-warning-bg: #eca2c2;
+$label-danger-bg: #e67272;
+
+$progress-bar-bg: #92cddc;
+$progress-bar-success-bg: #99cd8c;
+$progress-bar-info-bg: #efd794;
+$progress-bar-warning-bg: #eca2c2;
+$progress-bar-danger-bg: #e67272;
+
+$panel-primary-heading-bg: #92cddc;
+$panel-primary-border: #87bfcd;
+$panel-success-heading-bg: #e3f1df;
+$panel-success-border: #cfe6c6;
+$panel-info-heading-bg: #fbf4e1;
+$panel-info-border: #f7eccc;
+$panel-warning-heading-bg: #fae7f0;
+$panel-warning-border: #f6d4e3;
+$panel-danger-heading: #f8d9d4;
+$panel-danger-border: #f4c6c0;
+
+$alert-success-bg: #e3f1df;
+$alert-success-border: #cfe6c6;
+$alert-success-text: #77a572;
+$alert-info-bg: #fbf4e1;
+$alert-info-border: #f7eccc;
+$alert-info-text: #bfa875;
+$alert-warning-bg: #fae7f0;
+$alert-warning-border: #f6d4e3;
+$alert-warning-text: #c07f99;
+$alert-danger-bg: #f8d9d4;
+$alert-danger-border: #f4c6c0;
+$alert-danger-text: #bd5c5f;
+
+$badge-bg: #e67272;
+
+$list-group-active-bg: #92cddc;
+
+$table-bg-accent: #ecf5f8;
+
+
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+
+body {
+	color: #777;
+	background-color: #fff;
+}
