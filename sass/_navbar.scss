@@ -1,22 +1,42 @@
-.container > .navbar  { 
+.container .navbar  { 
     margin-right: -15px;
     margin-left: -15px;
 	border-bottom: solid 5px #5c97a3;
 }
 
-.container > .navbar > .collapse > .ul > .li {
-	border-top: solid 1px #5c97a3;
+.container .navbar-nav {
+		margin: 0 -15px !important;
+	}
+
+.container > .navbar > .collapse > ul > li {
+	border-top:1px solid #5c97a3;
+	border-bottom:1px solid #5c97a3;
+	margin-top: -1px;
+}
+.container .navbar-header {
+	height: 60px;
 }
 
-.container > .navbar > .navbar-header {
-	background-color: #ffffff;
-	border-bottom: solid 5px #b5ad10;
-}
-
-.container > .navbar > .navbar-header > .navbar-toggle > .icon-bar {
+.icon-bar {
   border-color: #73adbb;
 }
 
-.container > .navbar > .navbar-header > .navbar-brand {
-    margin-top: -10px;
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    height: auto;
+
+    img {
+    	margin-left: -65px !important;  /* 50% of your logo width */
+    }
+}
+
+.navbar-inverse {
+	border-bottom: solid 5px #5c97a3;
+}
+
+.navbar-collapse {
+	width: 100%;
 }
