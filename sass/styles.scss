@@ -2,10 +2,15 @@
 @import "bootstrap-compass";
 
 $navbar-default-border: none;
+$navbar-inverse-border: none;
 $navbar-inverse-bg: #92cddc;
 $navbar-inverse-border: none;
 $navbar-inverse-link-color: #fff;
 $navbar-inverse-link-active-color: #ffedbb;
+
+$navbar-inverse-toggle-border-color: #8fc6d4;
+$navbar-inverse-toggle-hover-bg: #5c97a3;
+$navbar-inverse-toggle-icon-bar-bg: #8fc6d4;
 
 $btn-default-color: #777;
 $btn-primary-bg: #92cddc;

@@ -1,6 +1,22 @@
 .container > .navbar  { 
     margin-right: -15px;
     margin-left: -15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+	border-bottom: solid 5px #5c97a3;
+}
+
+.container > .navbar > .collapse > .ul > .li {
+	border-top: solid 1px #5c97a3;
+}
+
+.container > .navbar > .navbar-header {
+	background-color: #ffffff;
+	border-bottom: solid 5px #b5ad10;
+}
+
+.container > .navbar > .navbar-header > .navbar-toggle > .icon-bar {
+  border-color: #73adbb;
+}
+
+.container > .navbar > .navbar-header > .navbar-brand {
+    margin-top: -10px;
 }
