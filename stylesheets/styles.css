@@ -8801,4 +8801,19 @@ body {
 .container > .navbar {
   margin-right: -15px;
   margin-left: -15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 1, ../sass/_header.scss */
+.header {
+  width: 100%;
+  border-bottom: solid 3px #b5ad10;
+}
+
+/* line 1, ../sass/_img.scss */
+.rogo {
+  margin-top: -10px;
+  margin-right: 5px;
+  margin-left: -10px;
 }
